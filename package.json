@@ -1,0 +1,38 @@
+{
+  "name": "hyperapp-typescript-starter",
+  "version": "0.0.1",
+  "description": "Starter for Hyperapp with Typescript including some best practices",
+  "main": ".",
+  "scripts": {
+    "start": "ts-node fuse.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alber70g/hyperapp-typescript-starter.git"
+  },
+  "keywords": [
+    "hyperapp",
+    "typescript",
+    "starter",
+    "best",
+    "practices"
+  ],
+  "author": "A Groothedde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alber70g/hyperapp-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/Alber70g/hyperapp-typescript-starter#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "hyperapp": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "fuse-box": "^3.2.2",
+    "fuse-box-typechecker": "^2.9.0",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.1"
+  }
+}
